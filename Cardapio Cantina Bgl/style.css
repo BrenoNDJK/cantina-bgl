@@ -1,0 +1,96 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* FUNDO */
+body {
+    background: #f4f6f8;
+}
+
+/* HEADER */
+header {
+    background: #ff6b00;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* TITULO */
+.titulo {
+    text-align: center;
+    margin: 25px 0;
+    color: #333;
+}
+
+/* CARDS */
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* CARD */
+.produto {
+    background: white;
+    padding: 20px;
+    width: 220px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+}
+
+/* TEXTO */
+.produto h2 {
+    margin-bottom: 10px;
+}
+
+.produto p {
+    color: #f0ed5e;
+    font-weight: bold;
+}
+
+/* BOTÃO */
+.produto button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: #ff6b00;
+    color: white;
+    border-radius: 8px;
+     cursor: pointer;
+}
+
+/* LISTA ALUNO */
+#lista {
+    max-width: 400px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    list-style: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+#lista li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+}
